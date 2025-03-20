@@ -1,3 +1,12 @@
+
+html,body{
+
+    font-family: "Geshin_Impact" , sans-serif;
+    color: #000000;
+    line-height: 150%;
+}
+
+
 .wrapper{
 min-height: 100%;
 width: 100%;
@@ -5,7 +14,7 @@ overflow: hidden;
 }
 
 .header{
-background-color:rgb(255, 224, 122);
+background-color:#525a75;
 }
 
 .container{
@@ -69,8 +78,135 @@ margin-right: 15px;
 
 .header__reg-link{
     transition: all .3s;
+    
+    cursor: pointer;
 }
 
 .header__reg-link:hover{
     color: #fff;
+}
+
+.message__inner.active{
+    display: block;
+}
+
+.message__inner{
+    position: fixed;
+    top: 250px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    display: none;
+
+}
+
+.message{
+    background: rgba(82, 90, 117, 0.623);
+    padding: 60px 90px;
+    border-radius: 15px;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.close__message{
+    position: absolute;
+    top: 9px;
+    right: 22px;
+    font-size: 37px;
+    color: black;
+    cursor: pointer;
+}
+
+.message__title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.form__input{
+    margin-top: 25px;
+}
+
+
+.form__input-link{
+    display: block;
+    margin: 0 auto 15px;
+    width: 300px;
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+
+.main__main-main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../images/digital-art-style-river-nature-landscape.jpg') center/cover no-repeat;
+    z-index: -1;        
+}
+
+.main__main-main::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+/*
+    background: url("../images/digital-art-style-river-nature-landscape.jpg") 100% / 100% no-repeat*/
+.main__inner{
+    display: flex;
+
+}
+
+.main__img-inner{
+    display:flex;
+    min-width: 700px;
+}
+
+.main__photo{
+    width: 100%;
+    height: 100%;
+}
+
+.main__content{
+    width: 100%;
+    margin: 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.548);
+    border-radius: 15px;
+}
+
+
+.main__content-title{
+    font-size: 50px;
+    padding: 30px 30px;
+}
+
+.gensh{
+    padding: 15px;
+    font-weight: 700;
+
+}
+
+.footer{
+    color: #000000;
+}
+
+.footer__top{
+
+    background-color: #525a75;
+    padding: 10px 0 60px;
 }

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Geshin_Impact";
+    font-weight: 900;
+    
+    font-style: normal;
+    src:
+      local("Genshin_Impact"),
+      url("../fonts/Genshin_Impact.eot") format('woff2'),
+      url("../fonts/Genshin_Impact.woff") format('woff'),
+      url("../fonts/Genshin_Impact.eot") format('eot');
+    font-display: swap;
+  } 
+
+  @font-face {
+    font-family: "Geshin_Impact";
+    font-weight: 700;
+    
+    font-style: normal;
+    src:
+      local("Genshin_Impact"),
+      url("../fonts/Genshin_Impact.woff2") format('woff2'),
+      url("../fonts/Genshin_Impact.woff") format('woff'),
+      url("../fonts/Genshin_Impact.eot") format('eot');
+    font-display: swap;
+  } 
+
+  @font-face {
+    font-family: "Geshin_Impact";
+    font-weight: 400;
+    
+    font-style: normal;
+    src:
+      local("Genshin_Impact"),
+      url("../../fonts/Genshin_Impact.woff2") format('woff2'),
+      url("../../fonts/Genshin_Impact.woff") format('woff'),
+      url("../../fonts/Genshin_Impact.eot") format('eot');
+    font-display: swap;
+  } 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -18,7 +19,7 @@
                     <div class="header__nav">
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
-                                <a href="index.html" class="header__item-link">About Us</a>
+                                <a href="#" class="header__item-link">About Us</a>
                             </li>
                             
                             <li class="header__nav-item">
@@ -32,11 +33,11 @@
                     </div>
                     <div class="header__reg">
                         <a href="#" class="header__reg-reg">
-                            <a href="reg.html" class="header__reg-link">Register</a>
+                            <a class="header__reg-link">Register</a>
                             </a>
                         <p class="header__reg-text">/</p>
                         <a href="#" class="header__reg-log">
-                            <a href="log.html" class="header__reg-link"> Log in</a>
+                            <a class="header__reg-link"> Log in</a>
                             </a>
                     </div>
                 </div>
@@ -44,21 +45,37 @@
 
         </header>
         <main class="main">
-
+            <section class="main__main">
+            <div class="main__main-main">
+                <div class="container">
+                    <div class="main__inner">
+                        <div class="main__img-inner">
+                            <img class="main__photo" src="/images/paimon.png">
+                        </div>
+                        <div class="main__content">
+                            <h2 class="main__content-title">Genshin Impact</h2>
+                            <p class="gensh">- компьютерная игра в жанре action-adventure с открытым миром и элементами RPG, разработанная китайской компанией miHoYo Limited. Игра распространяется посредством цифровой дистрибуции по модели free-to-play, но имеет внутриигровой магазин, использующий реальную валюту. В основе Genshin Impact лежит система «гача», называемая в игре «молитвой». </p>
+                            <p class="gensh">Действие Genshin Impact происходит в фэнтезийном мире Тейват, который является домом для семи различных народов, каждый из которых связан с отдельной стихией и управляется отдельным богом, называемым во вселенной игры «Архонт». Сюжет рассказывает о Путешественнике[5], который странствует по бесчисленным мирам со своим братом или же сестрой-близнецом (в зависимости от того, кого игрок выберет в начале игры), прежде чем разлучиться в Тейвате. Вместе со своей спутницей-компаньоном Паймон Путешественник отправляется на поиски своего потерянного близнеца, одновременно участвуя в делах народов Тейвата.</p>
+                            <p class="gensh">Разработка Genshin Impact началась в 2017 году. В целом, игра получила положительные отзывы: критики хвалили её боевую механику и захватывающий открытый мир, но критиковали систему монетизации. Выручка от запуска за первый год составила более 3 миллиардов долларов, что является самым высоким показателем среди всех других когда-либо выпускаемых видеоигр, а доход составил более 4 миллиардов долларов.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         </main>
         <footer class="footer">
-
+                <div class="footer__top"></div>
         </footer> 
         <div class="message__inner">
             <div class="message message-reg">
-                <h3>Registration</h3>
+                <a class="close__message">×</a>
+                <h3 class="message__title">Registration</h3>
                 <p>Введите логин и пароль</p>
                 <form class="form__input">
-                    <div class="form__input-ainner">
-                        <input class="form__input-link" type="text" name="login"></div>
+                        <input class="form__input-link" type="text" name="login" placeholder="Ваш логин">
+                        <input class="form__input-link" type="text" name="Passsword" placeholder="Ваш пароль">
+                        <input class="form__input-link" type="submit" value="Отправить">
                     
-                    <div class="form__input-inner">
-                        <input class="form__input-link" type="text" name="Passsword"></div>
                 </form>
             </div>
         </div>
@@ -66,6 +83,6 @@
     </div>
 
 </body>
-
-<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </html>
