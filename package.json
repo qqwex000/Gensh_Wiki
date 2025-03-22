@@ -1,0 +1,29 @@
+{
+  "name": "gensh_wiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqwex000/Gensh_Wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qqwex000/Gensh_Wiki/issues"
+  },
+  "homepage": "https://github.com/qqwex000/Gensh_Wiki#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
