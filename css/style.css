@@ -5,20 +5,23 @@ html,body{
     color: #000000;
     line-height: 150%;
 }
-
+.body{
+    
+}
 
 .wrapper{
-min-height: 100%;
-width: 100%;
-overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .header{
-background-color:#525a75;
+background-color:#cab98e;
+
 }
 
 .container{
-    max-width: 1260px;
+    max-width: 1460px;
     height: 100%;
     padding: 0px 15px;
     margin: 0px auto;
@@ -103,7 +106,7 @@ margin-right: 15px;
 }
 
 .message{
-    background: rgba(82, 90, 117, 0.623);
+    background: #cdba8de3;
     padding: 60px 90px;
     border-radius: 15px;
     width: 500px;
@@ -142,15 +145,43 @@ margin-right: 15px;
     padding: 15px 25px;
 }
 
+.main{
+    background-image: url("../images/digital-art-style-river-nature-landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+.main__main{
+    margin-bottom: 50px;
+}
+.main::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    filter: blur(5px);
+    position: absolute;
+    background-attachment: fixed;
+    background-image: inherit;
+    z-index: -1;
+}
 
 .main__main-main{
     position: relative;
     width: 100%;
-    height: 100%;
-    background: url('../images/digital-art-style-river-nature-landscape.jpg') center/cover no-repeat;
-    z-index: -1;        
+    height: 100%;      
 }
 
+.main__container{
+    
+    max-width: 1260px;
+    height: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+/*
 .main__main-main::before{
     content: "";
     width: 100%;
@@ -161,7 +192,7 @@ margin-right: 15px;
     z-index: -1;
 }
 
-/*
+
     background: url("../images/digital-art-style-river-nature-landscape.jpg") 100% / 100% no-repeat*/
 .main__inner{
     display: flex;
@@ -169,37 +200,116 @@ margin-right: 15px;
 }
 
 .main__img-inner{
-    display:flex;
-    min-width: 700px;
+    min-width: 600px;
+    min-height: 800px;
 }
 
 .main__photo{
-    width: 100%;
-    height: 100%;
+    min-width: 500px;
+    min-height: 700px;
 }
 
 .main__content{
-    width: 100%;
-    margin: 50px 0px ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.548);
-    border-radius: 15px;
+    padding: 15px 15px ;
+    background-color: #f3edd6;;
+    border: #cab98e 3px solid;
+    border-bottom-right-radius: 5% ;
+    border-bottom-left-radius: 5% ;
+}
+.main__content-inner{
+    padding-top: 20px;
+}
+.main__top-aboutus{
+    display: inline;
 }
 
-
-.main__content-title{
+.number-title{
+    background-color: #cf6048;
+    display: inline-block;
     font-size: 50px;
     padding: 30px 30px;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.content-title{
+    display: inline;
+    font-size: 50px;
+    border-bottom: #e7d4c6 5px solid;
+
 }
 
 .gensh{
     padding: 15px;
     font-weight: 700;
+    font-size: 16px;
 
 }
+
+.main__png-inner{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 596px ;
+    max-height: 70px;
+}
+
+.png{
+    padding-top: 20px;
+width: 50%;
+height: 100%;
+}
+
+
+/*--------------------------------------------------------*/
+
+.info{
+    padding-bottom: 50px;
+}
+
+.container__info{
+    background-color: #f3edd6;
+    border-radius: 5%;
+    padding: 55px 55px;
+    border: #cab98e 3px solid;
+}
+.info__inner-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.info__img-inner-1{
+    display: flex;
+    padding-right: 20px;
+    min-width: 600px;
+    min-height: 1000px;
+}
+.info__photo-1{
+    width: 100%;
+    height: 100%;
+    
+    border: #cab98e 3px solid;
+    border-radius: 5%;
+}
+
+.info__inner-2{
+    display: flex;
+    justify-content: space-between;
+}
+.info__img-inner-2{
+    display: flex;
+    padding-left: 20px;
+    min-width: 624px;
+    min-height: 714px;
+}
+.info__photo-2{
+    width: 100%;
+    height: 100%;
+    
+    border: #cab98e 3px solid;
+    border-radius: 5%;
+}
+
+
 
 .footer{
     color: #000000;
@@ -207,6 +317,6 @@ margin-right: 15px;
 
 .footer__top{
 
-    background-color: #525a75;
+    background-color:#cab98e;
     padding: 10px 0 60px;
 }
